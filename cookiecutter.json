@@ -1,0 +1,16 @@
+{
+    "app_name": "MeuAplicativo",
+    "__app_name_lower":"{{cookiecutter.app_name|lower|replace(' ', '_')}}",
+    "package_name": "br.com.exemplo.{{ cookiecutter.__app_name_lower }}",
+    "sdk_dir": "/home/ivan/Android/Sdk",
+    "min_sdk_version": "24",
+    "target_sdk_version": "34",
+    "target_api_version": "31",
+    "__native_lib_name": "native-lib",
+    "__main_activity": "MainActivity",
+    "__package_name_jni":"{{cookiecutter.package_name|replace('.', '_')}}",
+    "__compile_sdk": "{{cookiecutter.target_sdk_version}}",
+    "__com_android_application_version": "8.1.4",
+    "__org_jetbrains_kotlin_android_version": "1.9.0",
+    "__package_dir": "{{cookiecutter.package_name|replace('.', '/')}}"
+}
