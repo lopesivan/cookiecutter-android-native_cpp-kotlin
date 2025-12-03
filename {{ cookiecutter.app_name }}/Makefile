@@ -1,4 +1,4 @@
-MY_GRADLE_LOCAL = /opt/gradle/gradle-8.2.1/bin/gradle
+MY_GRADLE_LOCAL = {{ cookiecutter.gradle_local }}
 
 MANIFEST = app/src/main/AndroidManifest.xml
 GRADLE   = ./gradlew
